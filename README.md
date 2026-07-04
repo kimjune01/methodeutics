@@ -41,4 +41,4 @@ sequences, the reference implementation), [expectation](https://github.com/jakor
 (a fuller e-process library), [savvi](https://github.com/assuncaolfi/savvi)
 (anytime-valid inference for specific models).
 
-MIT license.
+AGPL-3.0-or-later license.
