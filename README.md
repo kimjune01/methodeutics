@@ -9,6 +9,11 @@ b = Bankroll(bernoulli(p0=0.5, p1=0.6), alpha=0.05).extend(observations)
 b.plot()  # pip install methodeutics[plot]
 ```
 
+The core is one small file of plain Python with zero dependencies: read it
+before you trust it. The tests check the package against the published
+theorems (Ville's inequality, the supermartingale property) and against the
+textbook's worked examples.
+
 Start with one dollar. Each observation multiplies your bankroll by the
 likelihood ratio the alternative assigns against the null. If the null is
 true, no strategy grows the dollar on average, and the bankroll crosses
